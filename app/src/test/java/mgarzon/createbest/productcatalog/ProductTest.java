@@ -19,13 +19,16 @@ public class ProductTest {
     @Test
     public void checkProductPrice() {
         // I am making this test to fail
-        Product aProduct = new Product("1", "DELL MONITOR", 180);
-        assertEquals("Check the price of the product", "0", aProduct.getPrice());
-        //for assertEquals for doubles = assertEquals(("Check the price of the product", double, aProduct.getPrice(), double episilon)
-        for (double i = 0; i < 10; i++) {
-            assertEquals("Check the price of the product", 180, aProduct.getPrice(), 0.001);
+        int sum = 0;
+        for(Product aProduct : products) {
+            sum += aProdict.getPrice()
         }
-    }
+        Product aProduct = new Product("1", "DELL MONITOR", 180);
+        assertEquals("Check the price of the product", 0 , aProduct.getPrice());
+        //for assertEquals for doubles = assertEquals(("Check the price of the product", double, aProduct.getPrice(), double episilon)
+
+    })
+
 
 
 }
