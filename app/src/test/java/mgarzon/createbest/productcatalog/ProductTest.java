@@ -21,10 +21,10 @@ public class ProductTest {
         // I am making this test to fail
         int sum = 0;
         for(Product aProduct : products) {
-            sum += aProdict.getPrice()
+            sum += aProduct.getPrice()
         }
         Product aProduct = new Product("1", "DELL MONITOR", 180);
-        assertEquals("Check the price of the product", 0 , aProduct.getPrice(), sum);
+        assertEquals("Check the price of the product",  , aProduct.getPrice(), sum);
         //for assertEquals for doubles = assertEquals(("Check the price of the product", double, aProduct.getPrice(), double episilon)
 
     })
