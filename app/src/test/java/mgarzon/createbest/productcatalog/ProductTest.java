@@ -24,7 +24,7 @@ public class ProductTest {
             sum += aProduct.getPrice()
         }
         Product aProduct = new Product("1", "DELL MONITOR", 180);
-        assertEquals("Check the price of the product",  , aProduct.getPrice(), sum);
+        assertEquals("Check the price of the product", "0"  , aProduct.getPrice(), sum);
         //for assertEquals for doubles = assertEquals(("Check the price of the product", double, aProduct.getPrice(), double episilon)
 
     })
